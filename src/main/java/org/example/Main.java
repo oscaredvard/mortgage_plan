@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
 public class Main {
     public static void main(String[] args) {
 
-        String filePath = "prospects.txt";
+        String filePath = "org/example/prospects.txt";
 
         printProspects(filePath);
     }

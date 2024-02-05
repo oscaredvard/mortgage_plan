@@ -12,7 +12,7 @@ public class MainTest {
         ByteArrayOutputStream outContent = new ByteArrayOutputStream();
         System.setOut(new PrintStream(outContent));
 
-        String filePath = "prospects.txt";
+        String filePath = "org/example/prospects.txt";
 
         Main.printProspects(filePath);
 
